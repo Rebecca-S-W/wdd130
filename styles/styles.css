@@ -44,12 +44,12 @@ aside {
 }
 
 aside img {
-    width: 200;
+    width: 200px;
     height: auto
 }
 
 footer {
     text-align: center;
-    top-margin: 2px;
-    top-border: solid green;
+    margin-top: 2px;
+    border-top: 1 px solid green;
 }

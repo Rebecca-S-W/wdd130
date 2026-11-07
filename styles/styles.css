@@ -30,7 +30,7 @@ main img {
     height: auto;
     border: 1px solid red;
     padding: 0;
-    box-shadow: 0 0 0 /0.2;
+    box-shadow: 0 0 10px gray;
 
 }
 
@@ -55,5 +55,5 @@ aside img {
 footer {
     text-align: center;
     margin-top: 2px;
-    border-top: 1 px solid green;
+    border-top: 1px solid green;
 }

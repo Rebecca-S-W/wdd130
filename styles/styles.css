@@ -28,7 +28,7 @@ img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid rgb(44, 23, 199);
     padding: 0;
     box-shadow: 0 0 10px gray;
 
@@ -45,6 +45,7 @@ aside {
     padding: 1px;
     background-color: green;
     color: white;
+    text-align: center;
 }
 
 aside img {

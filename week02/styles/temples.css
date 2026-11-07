@@ -11,7 +11,7 @@ main {
 
 header,
 footer {
-    background-color: darkblue;
+    background-color: rgb(18, 18, 50);
     color: white;
     text-align: center;
     padding: 1px;
@@ -30,15 +30,15 @@ h1 {
 
 img {
     width: 100%;
-    margin: center;
+    margin: auto;
     box-shadow: 0 0 30px #666
 }
 
 section {
-    margin: 20ps auto;
+    margin: 20px auto;
     width: 90%;
     background-color: rgb(100, 111, 111);
-    text-align: center;
+    text-align: left;
     padding: 5%;
 }
 

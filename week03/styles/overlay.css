@@ -19,7 +19,7 @@ h1 {
 .herodiv {
     margin: 10px auto;
     position: relative;
-    /* If removed, what happens? */
+    /* If removed, what happens? removes the anchors connected to the image. */
 }
 
 .herodiv img {

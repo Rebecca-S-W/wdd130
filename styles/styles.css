@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --background-color: darkblue;
     --text-align: center;
@@ -62,4 +68,11 @@ footer {
     text-align: var(--text-align);
     margin-top: 2px;
     border-top: 1px solid green;
+}
+
+/* class Selectors*/
+.box {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(196, 25, 25);
 }

@@ -1,15 +1,15 @@
 :root {
-    --primary-color: dark green;
-    --secondary-color: light brown;
-    --accent1-color: dark blue;
-    --accent2-color: light yellow;
-    --heading-font: serif;
+    --primary-color: darkgreen;
+    --secondary-color: tan;
+    --accent1-color: darkblue;
+    --accent2-color: lightyellow;
+    --heading-font: "Georgia", serif;
     --body-font: arial;
 }
 
 header {
     background-color: var(--primary-color);
-    color: var (--accent2-color)
+    color: var(--accent2-color);
 }
 
 * {
@@ -33,7 +33,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var (--primary-color)
+    color: var(--primary-color);
 }
 
 nav,
@@ -44,12 +44,22 @@ article {
     padding: 6px;
 }
 
-.sociamedia a {
+.socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
 }
 
 .hero {
     position: relative;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero article img {
@@ -64,14 +74,15 @@ h1 {
     padding: 14px;
     text-align: center;
     opacity: 0.6;
-    background-color(--accent2-color) color: dark blue
+    background-color: var(--accent2-color);
+    color: darkblue;
 }
 
 article {
-    position: absolute text-align: left;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
+    position: absolute;
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 224, 0.85);
 }

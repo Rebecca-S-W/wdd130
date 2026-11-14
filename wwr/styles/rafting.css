@@ -89,3 +89,11 @@ h1 {
     right: 20px;
     background-color: var(--secondary-color);
 }
+
+article {
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,77 @@
+:root {
+    --primary-color: dark green;
+    --secondary-color: light brown;
+    --accent1-color: dark blue;
+    --accent2-color: light yellow;
+    --heading-font: serif;
+    --body-font: arial;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var (--accent2-color)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var (--primary-color)
+}
+
+nav,
+p,
+section,
+article {
+    margin: 15px;
+    padding: 6px;
+}
+
+.sociamedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 14px;
+    text-align: center;
+    opacity: 0.6;
+    background-color(--accent2-color) color: dark blue
+}
+
+article {
+    position: absolute text-align: left;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}

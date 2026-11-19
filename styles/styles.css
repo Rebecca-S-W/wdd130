@@ -7,10 +7,11 @@
 :root {
     --background-color: darkblue;
     --text-align: center;
+
 }
 
 header,
-grid,
+.grid,
 footer {
     max-width: 840px;
     margin: 0 auto;
@@ -29,11 +30,11 @@ nav a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    font-family: lato;
+    font-family: lato, sans-serif;
 }
 
 main {
-    max-width: 60%;
+    margin: 1rem;
     grid-column: 2/3;
 }
 
@@ -71,8 +72,8 @@ h2 {
 }
 
 aside {
-    max-width: 840px;
-    margin: auto;
+    width: 20rem;
+    position: relative;
     border: 1px solid rgb(0 0 0 / 0.4);
     padding: 1px;
     background-color: green;
@@ -97,7 +98,7 @@ footer {
 .box {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(196, 25, 25);
+    background-color: rgb(157, 84, 84);
 }
 
 .grid {

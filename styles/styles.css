@@ -36,7 +36,6 @@ nav a {
 main {
     margin: 1rem;
     grid-column: 2/3;
-    color: white;
 }
 
 h1 {
@@ -99,7 +98,8 @@ footer {
 .box {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: rgb(157, 84, 84);
+    background-color: rgba(246, 246, 246, 0.638);
+    color: black;
 }
 
 .grid {

@@ -27,10 +27,43 @@ header img {
     height: auto;
 }
 
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 .history {
     display: grid;
-    grid-tempate-columns: 1fr 200px 1fr;
-    column: 1/-1;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.history h2 {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 9px;
+    text-align: center;
+}
+
+.adventures h2 {
+    grid-column: 1/-1;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
 }
 
 body {
@@ -43,6 +76,15 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 10px 20px;
 }
 
 h1,
@@ -73,12 +115,18 @@ article {
     padding: 6px;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
 .socialmedia img {
     width: 30px;
+    height: auto;
 }
 
 .hero {
